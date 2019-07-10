@@ -378,6 +378,7 @@ extern "C" int scummvm_main(int argc, const char * const argv[]) {
         if (directoryExists("/comi")) { args[1] = "-p/comi"; args[2] = "comi"; }
 	if (directoryExists("/loom")) { args[1] = "-p/loom"; args[2] = "loom"; }
 	if (directoryExists("/maniac")) { args[1] = "-p/maniac"; args[2] = "maniac"; }
+	if (directoryExists("/putttime")) { args[1] = "-p/putttime"; args[2] = "putttime"; }
 
 	argv = args;
 	// Verify that the backend has been initialized (i.e. g_system has been set).
